@@ -1,0 +1,100 @@
+.navBar {
+    background-color: #292E37;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
+.navBar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.wrapper{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.murphy{
+  width: 100%;
+  float: left;
+}
+img{
+  border: 2px solid;
+  border-radius: 25px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+body{
+  background-color: #faebd7;
+}
+h1, h2 {
+  text-align: center;
+}
+h1{
+  font-size: 3em;
+  font-family: arial;
+}
+h2{
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/*-----
+ 480p+
+-----*/
+
+
+@media only screen and (min-width: 480px) {
+  h1, h2 {
+    margin-top: 10%;
+  }
+  .murphy {
+    float: none;
+  }
+}
+/*-----
+ 768p+
+-----*/
+@media only screen and (min-width: 768px) {
+  h1, h2 {
+    margin-top: 7%;
+  }
+  .murphy {
+    column-count: 2;
+    float: left;
+    margin: 0 auto;
+  }
+}
+img{
+  margin-bottom: 10%;
+}
+ /*-----
+  992p+
+ -----*/
+@media only screen and (min-width: 992px) {
+/*-----
+I tried for a really long time to get this one to turn
+into a check pattern like:
+X X X
+ X X
+X X X
+but it was taking a long time and its almost 3 AM right now.
+-----*/
+}
+/*-----
+ 1200p+
+-----*/
+@media only screen and (min-width: 1200px) {
+  .murphy {
+    width: 100%;
+    column-count: 4;
+    float: left;
+    margin: 0 auto;
+  }
+}
